@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail} from "lucide-react"
 import Link from "next/link"
 import ContactForm from "./components/contact-form"
 import ProjectCard from "./components/project-card"

@@ -3,9 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export default function Header() {
-  const openResume = () => {
-    window.open('/resume-xhw.pdf', '_blank');
-  };
+  
 
     return (
         
