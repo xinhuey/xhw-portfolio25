@@ -21,6 +21,7 @@ export default function Page() {
     const period = 2000;
 
     const tick = useCallback(() => {
+      const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer']; // Define inside useCallback
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
       let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -39,7 +40,7 @@ export default function Page() {
           setLoopNum(loopNum + 1);
           setDelta(500);
       }
-  }, [loopNum, isDeleting, text, toRotate]);
+  }, [loopNum, isDeleting, text, delta]); // No need to include `toRotate` in dependencies
   
   useEffect(() => {
       let ticker = setInterval(tick, delta);
