@@ -1,7 +1,6 @@
 // pages/gallery.jsx
 "use client"
 import React from 'react';
-import Image from "next/image"
 import Header from "../components/header"
 import TrackVisibility from "react-on-screen";
 import 'animate.css';
@@ -167,6 +166,7 @@ export default function Gallery() {
 ]
 return (
   <div className="min-h-screen bg-background p-6">
+    <Header/>
     <Container>
                 <Row>
                     <Col>
@@ -183,7 +183,7 @@ return (
                           {images.map((image, index) => (
                          <TrackVisibility key={index} partialVisibility> 
                          {({ isVisible }) => (
-                           <div className={`grid-item ${isVisible ? "animate__animated animate__slideInUp" : ""}`}> 
+                           <div className={isVisible ? "animate__animated animate__slideInUp" : ""}> 
                              <PicSnaps {...image} />
                            </div>
                          )}

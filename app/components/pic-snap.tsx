@@ -1,4 +1,4 @@
-import {Container, Row, Col} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 
 export const PicSnaps = ({title, date, location, imgUrl}) =>{
     return(
