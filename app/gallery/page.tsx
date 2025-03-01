@@ -5,7 +5,7 @@ import Header from "../components/header"
 import TrackVisibility from "react-on-screen";
 import 'animate.css';
 import { PicSnaps } from '../components/pic-snap';
-import {Container, Row, Col, Tab, Nav} from "react-bootstrap";
+import {Container, Row, Col, Tab} from "react-bootstrap";
 
 export default function Gallery() {
   const images = [
