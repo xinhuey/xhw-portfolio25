@@ -20,147 +20,147 @@ export default function Gallery() {
       title: "Big Dipper",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/gallery2425pg/bdp.JPG" 
+      imgUrl: "/images/bdp.JPG" 
       
     },
     {
       title: "Gibous",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/gallery2425pg/moon.JPG" 
+      imgUrl: "/images/moon.JPG" 
       
     },
     {
       title: "An Autumn Afternoon",
       date: "October 2024",
       location: "Kitchener, ON",
-      imgUrl: "/images/gallery2425pg/fall2.JPG" 
+      imgUrl: "/images/fall2.JPG" 
       
     },
     {
       title: "Asakusa",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/gallery2425pg/asks.JPG" 
+      imgUrl: "/images/asks.JPG" 
       
     },
     {
       title: "Evening Street",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/gallery2425pg/jpnst.JPG" 
+      imgUrl: "/images/jpnst.JPG" 
       
     },
     {
       title: "Shibuya from the Skies",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/gallery2425pg/ssky.JPG" 
+      imgUrl: "/images/ssky.JPG" 
       
     },
     {
       title: "Dotonbori Canal",
       date: "December 2024",
       location: "Osaka, Japan",
-      imgUrl: "/images/gallery2425pg/dbc.JPG" 
+      imgUrl: "/images/dbc.JPG" 
       
     },
     {
       title: "Tranquil Corner in Venice",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/gallery2425pg/venice1.JPG" 
+      imgUrl: "/images/venice1.JPG" 
       
     },
     {
       title: "The other side of the Rialto",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/gallery2425pg/venice2.JPG" 
+      imgUrl: "/images/venice2.JPG" 
     },
     {
       title: "The Grand Canal",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/gallery2425pg/venice3.JPG" 
+      imgUrl: "/images/venice3.JPG" 
     },
     {
       title: "Awaiting Gondolas",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/gallery2425pg/venice4.JPG" 
+      imgUrl: "/images/venice4.JPG" 
     },
     {
       title: "Love from Capri #1",
       date: "August 2024",
       location: "Capri, Italy",
-      imgUrl: "/images/gallery2425pg/capri1.JPG" 
+      imgUrl: "/images/capri1.JPG" 
     },
     {
       title: "Love from Capri #2",
       date: "August 2024",
       location: "Capri, Italy",
-      imgUrl: "/images/gallery2425pg/capri2.JPG" 
+      imgUrl: "/images/capri2.JPG" 
     },
     {
       title: "Sweet Sakuras",
       date: "April 2024",
       location: "Toronto, ON",
-      imgUrl: "/images/gallery2425pg/sakura.JPG" 
+      imgUrl: "/images/sakura.JPG" 
     },
     {
       title: "Wishes",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/gallery2425pg/ddl.JPG" 
+      imgUrl: "/images/ddl.JPG" 
     },
     {
       title: "Bubble Universe",
       date: "December 2024",
       location: "Tokyo, Japan",
-      imgUrl: "/images/gallery2425pg/tlb.JPG" 
+      imgUrl: "/images/tlb.JPG" 
     },
     {
       title: "Miracle Season",
       date: "December 2023",
       location: "Toronto, ON",
-      imgUrl: "/images/gallery2425pg/xmasm1.JPG" 
+      imgUrl: "/images/xmasm1.JPG" 
     },
     {
       title: "Ocean Jellies",
       date: "December 2024",
       location: "Sumida Aquarium, Tokyo",
-      imgUrl: "/images/gallery2425pg/jlyfsh.JPG" 
+      imgUrl: "/images/jlyfsh.JPG" 
     },
     {
       title: "A structure of History",
       date: "January 2024",
       location: "Penang, Malaysia",
-      imgUrl: "/images/gallery2425pg/kks.JPG" 
+      imgUrl: "/images/kks.JPG" 
     },
     {
       title: "Towering",
       date: "January 2024",
       location: "Kuala Lumpur, Malaysia",
-      imgUrl: "/images/gallery2425pg/klcc.JPG" 
+      imgUrl: "/images/klcc.JPG" 
     },
     {
       title: "Time for Tea?",
       date: "August 2024",
       location: "London, UK",
-      imgUrl: "/images/gallery2425pg/bben.JPG" 
+      imgUrl: "/images/bben.JPG" 
     },
     {
       title: "Another Perspective",
       date: "August 2024",
       location: "London, UK",
-      imgUrl: "/images/gallery2425pg/wma.JPG" 
+      imgUrl: "/images/wma.JPG" 
     },
     {
       title: "Frosty?",
       date: "December 2023",
       location: "Waterloo, ON",
-      imgUrl: "/images/gallery2425pg/snowman.JPG" 
+      imgUrl: "/images/snowman.JPG" 
     },
     
 ]
