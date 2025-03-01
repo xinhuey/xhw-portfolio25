@@ -8,21 +8,17 @@ interface PicSnapsProps {
     imgUrl: string;
   }
 
-export const PicSnaps = ({title, date, location, imgUrl}: PicSnapsProps) =>{
-    return(
-        <Col sm={6} md={4}>
-            <div className ="proj-imgbx">
-                
-                <Image 
-                src={imgUrl}
-                alt={title}
-                />
-                <div className = "proj-txtx">
-                    <h4>{title}</h4>
-                    <p>{date}</p>
-                    <p>{location}</p>
-                </div>
-            </div>
-        </Col>
-    )
-}
+  export const PicSnaps = ({ title, date, location, imgUrl }: PicSnapsProps) => {
+    return (
+      <Col sm={6} md={4}>
+        <div className="proj-imgbx" >
+          <img src={imgUrl} />
+          <div className="proj-txtx">
+            <h4>{title}</h4>
+            <p>{date}</p>
+            <p>{location}</p>
+          </div>
+        </div>
+      </Col>
+    );
+  };
