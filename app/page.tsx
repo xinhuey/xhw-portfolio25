@@ -40,7 +40,7 @@ export default function Page() {
           setLoopNum(loopNum + 1);
           setDelta(500);
       }
-  }, [loopNum, isDeleting, text, delta]); // No need to include `toRotate` in dependencies
+  }, [loopNum, isDeleting, text]); // No need to include `toRotate` in dependencies
   
   useEffect(() => {
       let ticker = setInterval(tick, delta);
