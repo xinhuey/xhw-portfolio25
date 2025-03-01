@@ -14,6 +14,7 @@ const eslintConfig = [
     extends: [
       "next/core-web-vitals",
       "next/typescript",
+      'next'
     ],
     rules: {
       "react/no-unescaped-entities": "off", // Disable this rule
