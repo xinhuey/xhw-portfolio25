@@ -39,7 +39,7 @@ export default function Page() {
           setLoopNum(loopNum + 1);
           setDelta(500);
       }
-  }, [loopNum, isDeleting, text, delta]);
+  }, [loopNum, isDeleting, text, delta, toRotate]);
   
   useEffect(() => {
       let ticker = setInterval(tick, delta);
