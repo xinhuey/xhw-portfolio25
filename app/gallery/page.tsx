@@ -20,7 +20,7 @@ export default function Gallery() {
       title: "Big Dipper",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/bdp.JPG" 
+      imgUrl: "/images/bdp.jpg" 
       
     },
     {
@@ -59,21 +59,21 @@ export default function Gallery() {
       
     },
     {
-      title: "Dotonbori Canal",
+      title: "Bustling Dotonbori",
       date: "December 2024",
       location: "Osaka, Japan",
       imgUrl: "/images/dbc.JPG" 
       
     },
     {
-      title: "Tranquil Corner in Venice",
+      title: "A Tranquil Corner in Venice",
       date: "August 2024",
       location: "Venice, Italy",
       imgUrl: "/images/venice1.JPG" 
       
     },
     {
-      title: "The other side of the Rialto",
+      title: "Other side of the Rialto",
       date: "August 2024",
       location: "Venice, Italy",
       imgUrl: "/images/venice2.JPG" 
@@ -103,7 +103,7 @@ export default function Gallery() {
       imgUrl: "/images/capri2.JPG" 
     },
     {
-      title: "Sweet Sakuras",
+      title: "Sakura Sweetness",
       date: "April 2024",
       location: "Toronto, ON",
       imgUrl: "/images/sakura.JPG" 
@@ -117,7 +117,7 @@ export default function Gallery() {
     {
       title: "Bubble Universe",
       date: "December 2024",
-      location: "Tokyo, Japan",
+      location: "TeamLabs Borderless, Tokyo",
       imgUrl: "/images/tlb.JPG" 
     },
     {
@@ -139,7 +139,7 @@ export default function Gallery() {
       imgUrl: "/images/kks.JPG" 
     },
     {
-      title: "Towering",
+      title: "Twinning & Towering",
       date: "January 2024",
       location: "Kuala Lumpur, Malaysia",
       imgUrl: "/images/klcc.JPG" 
@@ -151,7 +151,7 @@ export default function Gallery() {
       imgUrl: "/images/bben.JPG" 
     },
     {
-      title: "Another Perspective",
+      title: "Simply Magnificent",
       date: "August 2024",
       location: "London, UK",
       imgUrl: "/images/wma.JPG" 
