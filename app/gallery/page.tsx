@@ -27,140 +27,140 @@ export default function Gallery() {
       title: "Gibous",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/moon.JPG" 
+      imgUrl: "/images/moon.jpg" 
       
     },
     {
       title: "An Autumn Afternoon",
       date: "October 2024",
       location: "Kitchener, ON",
-      imgUrl: "/images/fall2.JPG" 
+      imgUrl: "/images/fall2.jpg" 
       
     },
     {
       title: "Asakusa",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/asks.JPG" 
+      imgUrl: "/images/asks.jpg" 
       
     },
     {
       title: "Evening Street",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/jpnst.JPG" 
+      imgUrl: "/images/jpnst.jpg" 
       
     },
     {
       title: "Shibuya from the Skies",
       date: "December 2023",
       location: "Tokyo, Japan",
-      imgUrl: "/images/ssky.JPG" 
+      imgUrl: "/images/ssky.jpg" 
       
     },
     {
       title: "Bustling Dotonbori",
       date: "December 2024",
       location: "Osaka, Japan",
-      imgUrl: "/images/dbc.JPG" 
+      imgUrl: "/images/dbc.jpg" 
       
     },
     {
       title: "A Tranquil Corner in Venice",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/venice1.JPG" 
+      imgUrl: "/images/venice1.jpg" 
       
     },
     {
       title: "Other side of the Rialto",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/venice2.JPG" 
+      imgUrl: "/images/venice2.jpg" 
     },
     {
       title: "The Grand Canal",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/venice3.JPG" 
+      imgUrl: "/images/venice3.jpg" 
     },
     {
       title: "Awaiting Gondolas",
       date: "August 2024",
       location: "Venice, Italy",
-      imgUrl: "/images/venice4.JPG" 
+      imgUrl: "/images/venice4.jpg" 
     },
     {
       title: "Love from Capri #1",
       date: "August 2024",
       location: "Capri, Italy",
-      imgUrl: "/images/capri1.JPG" 
+      imgUrl: "/images/capri1.jpg" 
     },
     {
       title: "Love from Capri #2",
       date: "August 2024",
       location: "Capri, Italy",
-      imgUrl: "/images/capri2.JPG" 
+      imgUrl: "/images/capri2.jpg" 
     },
     {
       title: "Sakura Sweetness",
       date: "April 2024",
       location: "Toronto, ON",
-      imgUrl: "/images/sakura.JPG" 
+      imgUrl: "/images/sakura.jpg" 
     },
     {
       title: "Wishes",
       date: "May 2024",
       location: "Waterloo, ON",
-      imgUrl: "/images/ddl.JPG" 
+      imgUrl: "/images/ddl.jpg" 
     },
     {
       title: "Bubble Universe",
       date: "December 2024",
       location: "TeamLabs Borderless, Tokyo",
-      imgUrl: "/images/tlb.JPG" 
+      imgUrl: "/images/tlb.jpg" 
     },
     {
       title: "Miracle Season",
       date: "December 2023",
       location: "Toronto, ON",
-      imgUrl: "/images/xmasm1.JPG" 
+      imgUrl: "/images/xmasm1.jpg" 
     },
     {
       title: "Ocean Jellies",
       date: "December 2024",
       location: "Sumida Aquarium, Tokyo",
-      imgUrl: "/images/jlyfsh.JPG" 
+      imgUrl: "/images/jlyfsh.jpg" 
     },
     {
       title: "A structure of History",
       date: "January 2024",
       location: "Penang, Malaysia",
-      imgUrl: "/images/kks.JPG" 
+      imgUrl: "/images/kks.jpg" 
     },
     {
       title: "Twinning & Towering",
       date: "January 2024",
       location: "Kuala Lumpur, Malaysia",
-      imgUrl: "/images/klcc.JPG" 
+      imgUrl: "/images/klcc.jpg" 
     },
     {
       title: "Time for Tea?",
       date: "August 2024",
       location: "London, UK",
-      imgUrl: "/images/bben.JPG" 
+      imgUrl: "/images/bben.jpg" 
     },
     {
       title: "Simply Magnificent",
       date: "August 2024",
       location: "London, UK",
-      imgUrl: "/images/wma.JPG" 
+      imgUrl: "/images/wma.jpg" 
     },
     {
       title: "Frosty?",
       date: "December 2023",
       location: "Waterloo, ON",
-      imgUrl: "/images/snowman.JPG" 
+      imgUrl: "/images/snowman.jpg" 
     },
     
 ]
