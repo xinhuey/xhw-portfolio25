@@ -96,6 +96,18 @@ body {
   }
 }
 
+.wrap {
+  height: 60px; /* Adjust this value based on your design */
+  display: flex;
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+}
+
+/* Ensure the parent container doesn't shift */
+.space-y-4 > * + * {
+  margin-top: 1rem; /* Adjust spacing as needed */
+}
+
 .proj-imgbx{
   position: relative;
   border-radius: 30px;

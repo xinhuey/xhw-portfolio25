@@ -183,7 +183,7 @@ return (
                           {images.map((image, index) => (
                          <TrackVisibility key={index} partialVisibility> 
                          {({ isVisible }) => (
-                           <div className={isVisible ? "animate__animated animate__slideInUp" : ""}> 
+                           <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> 
                              <PicSnaps {...image} />
                            </div>
                          )}

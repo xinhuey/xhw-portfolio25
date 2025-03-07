@@ -17,8 +17,8 @@ export default function Page() {
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
     const[text, setText ] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const [delta, setDelta] = useState(100);
+    const period = 500;
 
     const tick = useCallback(() => {
       const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer']; // Define inside useCallback
@@ -29,7 +29,7 @@ export default function Page() {
       setText(updatedText);
   
       if (isDeleting) {
-          setDelta(prevDelta => Math.max(50, prevDelta / 2));
+        setDelta(prevDelta => Math.max(30, prevDelta / 2)); 
       }
   
       if (!isDeleting && updatedText === fullText) {
@@ -38,7 +38,7 @@ export default function Page() {
       } else if (isDeleting && updatedText === '') {
           setIsDeleting(false);
           setLoopNum(loopNum + 1);
-          setDelta(500);
+          setDelta(100);
       }
   }, [loopNum, isDeleting, text]); // No need to include `toRotate` in dependencies
   
@@ -190,7 +190,7 @@ export default function Page() {
 
       <footer className="border-t">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 John.dev. All rights reserved.</p>
+          
           <nav className="sm:ml-auto flex gap-4 sm:gap-6">
             <Link className="text-xs hover:underline underline-offset-4" href="#">
               Terms of Service
