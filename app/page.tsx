@@ -104,9 +104,9 @@ export default function Page() {
                 company="Imagine Communications"
                 period="May 2024 - August 2024"
                 description={[
-                  "Ensured Versio Control application stability by testing containers in Docker environments and also updated Docker versions to maintain security and compatibility across multiple environments.",
-                  "Developed an automated testing framework in Python and Selenium for Versio Control Application, resulting in a significant reduction of regression testing time by 50%.",
-                  "Configured Amazon EC2 instances with the correct Amazon Machine Images (AMI) based on project requirements, ensuring that the instances were optimized for performance prior to deployment.",
+                  "Built Python and Selenium automated testing frameworks, cutting regression testing time by 50% and embedding testing into the development cycle.",
+                  "Maintained Docker containers and Kubernetes pods for the Versio Control broadcasting application, upgrading Docker versions to meet security standards",
+                  "Configured AWS EC2 AMIs to optimize system performance and reliability",
                 ]}
                 technologies={["Python", "Selenium", "AWS", "Docker", "Kubernetes"]}
               />
@@ -115,14 +115,14 @@ export default function Page() {
                 company="UW Data Science Club"
                 period="Sept 2024 - Dec 2024"
                 description={[
-                  "Developed and integrated a QR code scanner component in a Next.js application that scans, decodes, and verifies member information, and allows for member check-in through API calls to MongoDB",
-                  "Built a script to validate and cross-check member data between a CSV file and MongoDB, logging payment status discrepancies and automating data integrity checks",
-                  "Participated in agile development processes and sprint planning for the term.",
+                  "Led client-facing development of a Next.js QR code scanner application with MongoDB backend and REST APIs, streamlining event check-ins for 100+ participants.",
+                  "Automated data validation with Python scripts to ensure data integrity across MongoDB and CSV sources.",
+                  "Maintained and updated a member-facing website serving 300+ users",
                 ]}
                 technologies={["React", "Next.js", "MongoDB", "Python", "Bootstrap"]}
               />
               <ExperienceCard
-                title="Software Test Engineer"
+                title="Software Test Engineer (Display Engineering)"
                 company="Christie Digital Systems"
                 period="September 2023 - December 2023"
                 description={[
@@ -162,6 +162,13 @@ export default function Page() {
                 image="/images/compiler.jpg"
                 link="https://github.com/xinhuey/MIPS-Compiler-C-"
                 tags={["C++", "DFA", "Tokenization", "Parsing"]}
+              />
+              <ProjectCard
+                title="Cafe Explorer"
+                description="A lightweight web app that lets users discover coffee shops nearby or in any searched city."
+                image="/images/cafe.jpg"
+                link="https://github.com/xinhuey/local-cafe-finder"
+                tags={["HTML5", "JavaScript", "Places API"]}
               />
             </div>
           </div>
