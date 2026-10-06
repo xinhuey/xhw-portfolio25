@@ -22,10 +22,10 @@ export default function ProjectCard({ title, description, image, link, tags }: P
           className="object-cover transition-transform hover:scale-105"
         />
       </div>
-      <CardContent className="flex-1 p-4">
+      <CardContent className="flex-1 flex flex-col p-4">
         <h3 className="font-semibold text-xl mb-2">{title}</h3>
         <p className="text-sm text-muted-foreground mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mt-auto">
           {tags.map((tag) => (
             <span
               key={tag}
