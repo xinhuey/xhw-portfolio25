@@ -9,24 +9,17 @@ export interface Project {
 export const projects: Project[] = [
    {
     title: "PerryVision",
-    description: "Built a full-stack binary image classifier with decoupled inference, API, and client layers; fine-tuned ResNet18 via transfer learning, achieving 97% test accuracy on a self-collected dataset",
+    description: "Built a full-stack binary image classifier with decoupled inference, API, and client layers; fine-tuned ResNet18 via transfer learning, achieving 97% test accuracy on a self-collected dataset.",
     image: "/images/perry.jpg",
     link: "https://github.com/xinhuey/a-platypus-or-perry",
     tags: ["Next.js", "FastAPI", "PyTorch", "TypeScript"],
   },
   {
     title: "Stock Tracker App",
-    description: "A web application that allows users to monitor their stocks in real-time",
+    description: "A web application that allows users to monitor their stocks in real-time.",
     image: "/images/stock.png",
     link: "https://github.com/xinhuey/stock-tracker-app",
     tags: ["MongoDB", "Express.js", "React", "Node.js"],
-  },
-  {
-    title: "LinguaStream, HawkHacks 2024",
-    description: "A web application that translates YouTube Video Audio to the language of your choice, and dubs it over the original video.",
-    image: "/images/youtube2.jpg",
-    link: "https://github.com",
-    tags: ["React", "Flask", "Postman"],
   },
   {
     title: "MIPS Compiler",
