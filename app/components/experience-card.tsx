@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { Card, CardContent, CardHeader } from "@/app/components/ui/card"
 
 interface ExperienceCardProps {
   title: string

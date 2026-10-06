@@ -1,5 +1,5 @@
 "use client"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/app/components/ui/button"
 import { Github, Linkedin, Mail} from "lucide-react"
 import Link from "next/link"
 import ContactForm from "./components/contact-form"
@@ -7,6 +7,7 @@ import ProjectCard from "./components/project-card"
 import TechStack from "./components/tech-stack"
 import ExperienceCard from "./components/experience-card"
 import Header from "./components/header"
+import { experiences } from "./data/experience"
 import {useState, useEffect, useCallback} from 'react';
 import TrackVisibility from 'react-on-screen';
 import './globals.css';
@@ -99,41 +100,9 @@ export default function Page() {
               Experience
             </h2>
             <div className="max-w-3xl mx-auto">
-              <ExperienceCard
-                title="Software Developer Intern"
-                company="Imagine Communications"
-                period="May 2024 - August 2024"
-                description={[
-                  "Built Python and Selenium automated testing frameworks, cutting regression testing time by 50% and embedding testing into the development cycle.",
-                  "Maintained Docker containers and Kubernetes pods for the Versio Control broadcasting application, upgrading Docker versions to meet security standards",
-                  "Configured AWS EC2 AMIs to optimize system performance and reliability",
-                ]}
-                technologies={["Python", "Selenium", "AWS", "Docker", "Kubernetes"]}
-              />
-              <ExperienceCard
-                title="VP of Development"
-                company="UW Data Science Club"
-                period="Sept 2024 - Dec 2024"
-                description={[
-                  "Led client-facing development of a Next.js QR code scanner application with MongoDB backend and REST APIs, streamlining event check-ins for 100+ participants.",
-                  "Automated data validation with Python scripts to ensure data integrity across MongoDB and CSV sources.",
-                  "Maintained and updated a member-facing website serving 300+ users",
-                ]}
-                technologies={["React", "Next.js", "MongoDB", "Python", "Bootstrap"]}
-              />
-              <ExperienceCard
-                title="Software Test Engineer (Display Engineering)"
-                company="Christie Digital Systems"
-                period="September 2023 - December 2023"
-                description={[
-                  "Designed and executed test cases, logged 5 critical defects before MicroTiles LED latest software release.",
-                  "Enhanced and debugged a testing tool, CAWS which automates web UI testing, thus achieving 95% code coverage (Python and Selenium).",
-                  "Developed a Python utility tool, facilitating the efficient file format conversion for EDID files (.bin to .txt).",
-                  "Pioneered a log monitoring tool in Python (PyQt5) that establishes live telnet sessions to monitor and displays the logs in a table, improving efficiency and accuracy in testing phases by 40%."
-                ]}
-                technologies={["Python", "Selenium", "Jenkins"]}
-              />
-              
+              {experiences.map((exp) => (
+                <ExperienceCard key={`${exp.company}-${exp.title}`} {...exp} />
+              ))}
             </div>
           </div>
         </section>
