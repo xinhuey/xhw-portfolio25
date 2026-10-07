@@ -23,9 +23,9 @@ export const experiences: Experience[] = [
     company: "Imagine Communications",
     period: "May 2024 - August 2024",
     description: [
-      "Developed Python and Selenium automated testing frameworks, cutting regression testing time by 50% and embedding testing into the development cycle",
+      "Developed Python and Selenium automated testing frameworks, cutting regression testing time by 50% and embedding testing into the development cycle.",
       "Maintained Docker containers and Kubernetes pods for the Versio Control broadcasting application, supporting 80% uptime.",
-      "Configured AWS EC2 AMIs, reducing instance deployment time by 85% across 3 environments",
+      "Configured AWS EC2 AMIs, reducing instance deployment time by 85% across 3 environments.",
     ],
     technologies: ["Python", "Selenium", "AWS", "Docker", "Kubernetes"],
   },
@@ -36,7 +36,7 @@ export const experiences: Experience[] = [
     description: [
       "Led client-facing development of a Next.js QR code scanner application with MongoDB backend and REST APIs, streamlining event check-ins for 100+ participants.",
       "Automated data validation with Python scripts to ensure data integrity across MongoDB and CSV sources.",
-      "Maintained and updated a member-facing website serving 300+ users",
+      "Maintained and updated a member-facing website serving 300+ users.",
     ],
     technologies: ["React", "Next.js", "MongoDB", "Python", "Bootstrap"],
   },
