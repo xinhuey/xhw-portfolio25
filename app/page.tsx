@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail} from "lucide-react"
 import Link from "next/link"
 import ContactForm from "./components/contact-form"
 import ProjectCard from "./components/project-card"
-import TechStack from "./components/tech-stack"
+import TechStack from "./components/techStack-card"
 import ExperienceCard from "./components/experience-card"
 import Header from "./components/header"
 import { experiences } from "./data/experience"
@@ -15,7 +15,7 @@ import './globals.css';
 
 
 export default function Page() {
-  const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer'];
+    const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer'];
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
     const[text, setText ] = useState('');

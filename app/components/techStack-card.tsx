@@ -1,28 +1,11 @@
 import { Card } from "@/app/components/ui/card"
+import { techStack } from "@/app/data/techstack"
 
-const technologies = [
-  {
-    category: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "TailwindCSS", "Bootstrap"],
-  },
-  {
-    category: "Backend",
-    skills: ["Node.js", "Express", "Python", "MongoDB"],
-  },
-  {
-    category: "DevOps",
-    skills: ["Docker", "AWS", "CI/CD", "Git", "Kubernetes", "Jenkins"],
-  },
-  {
-    category: "Tools",
-    skills: ["VS Code", "Postman", "Jira", "GitHub", "Vercel"],
-  },
-]
 
 export default function TechStack() {
   return (
     <div className="grid gap-6 md:grid-cols-2">
-      {technologies.map((tech) => (
+      {techStack.map((tech) => (
         <Card key={tech.category} className="p-6">
           <h3 className="text-lg font-semibold mb-4">{tech.category}</h3>
           <div className="flex flex-wrap gap-2">
