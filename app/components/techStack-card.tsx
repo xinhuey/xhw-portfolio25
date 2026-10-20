@@ -1,7 +1,6 @@
 import { Card } from "@/app/components/ui/card"
 import { techStack } from "@/app/data/techstack"
 
-
 export default function TechStack() {
   return (
     <div className="grid gap-6 md:grid-cols-2">
