@@ -6,7 +6,6 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 flex h-auto min-h-14 items-center gap-4 py-2">
-        {/* Always visible, wraps on small screens */}
         <nav className="flex flex-1 flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
           <Link href="/#about" className="transition-colors hover:text-foreground/80">
             About
