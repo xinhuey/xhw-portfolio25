@@ -15,7 +15,7 @@ import './globals.css';
 
 
 export default function Page() {
-    const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer'];
+    const toRotate = ['Software Developer', 'Computer Science Grad From UWaterloo', 'Foodie', 'Photographer'];
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
     const[text, setText ] = useState('');
@@ -23,7 +23,6 @@ export default function Page() {
     const period = 500;
 
     const tick = useCallback(() => {
-      const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer']; // Define inside useCallback
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
       let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
